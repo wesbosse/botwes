@@ -3,7 +3,7 @@ Author: wes - la - july 2019
 ___
 
 ## The Problem
-Simply put: Simple Poll sucks for our use case. Students are able to see peers' answers before they submit their own. In order to get accurate knowledge checks, the poll should not reveal the distribution of answers until AFTER students are finished voting.
+Simply put: Simple Poll sucks for our use case. Students are able to see peers' answers before they submit their own. In order to get accurate knowledge checks, the poll should not reveal the distribution of answers until AFTER students are finished voting. Example of our current poll system:
 
 <img src="assets/sp_bad.png" style="max-width:30%">  
 
@@ -12,7 +12,7 @@ I can see how others have voted before casting my own vote. This is bad. So what
 
 ## A Potential Solution
 
-I built my own slack bot with a custom slash command to handle this.
+_We maintain our own slack bot with a custom slash command to handle this._
 
 **The slash command:**  
 
@@ -40,6 +40,7 @@ Once the instructor is satisfied with the amount of votes received (still workin
 <br>
 
 **Moving Forward:**
+While the core process is currently working, there are a few things that would need to be finished before actually using this:
 - Improve the graph quality with labels, better coloring, etc.
 - Give poll creator a count of answers received.
-- Clean up the disgusting code that powers all of this currently. 
+- Clean up the disgusting code that powers all of this currently. Seriously, its bad. 
