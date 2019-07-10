@@ -12,7 +12,7 @@ I can see how others have voted before casting my own vote. This is bad. So what
 
 ## A Potential Solution
 
-_We maintain our own slack bot with a custom slash command to handle this._
+_We maintain our own slack bot with a custom slash command to handle this. Luckily for you, I have a prototype up and running:_
 
 **The slash command:**  
 
