@@ -39,8 +39,10 @@ Once the instructor is satisfied with the amount of votes received (still workin
 <img src="assets/results.png" style="max-width:30%"> 
 <br>
 
-**Moving Forward:**
+**Moving Forward:**  
 While the core process is currently working, there are a few things that would need to be finished before actually using this:
 - Improve the graph quality with labels, better coloring, etc.
 - Give poll creator a count of answers received.
+- Restrictions on who can release results.
+- Automated database cleanup
 - Clean up the disgusting code that powers all of this currently. Seriously, its bad. 
