@@ -18,7 +18,7 @@ _We maintain our own slack bot with a custom slash command to handle this. I hav
 
 Intended to work like `/poll` to minimize invasiveness. For my test installation, it is invoked with `/wesley` followed by `"question"` and then `"answer1" "answer2" ...` 
 
-*Example:* `/wesley "Which campus is the best?" "ATL" "ATX" "BOS" "CHI" "DC" "DEN" "LA" "NYC" "SEA" "SF"`
+*Example:* `/wesley "Which WC campus is the best?" "DEN" "LA" "SEA" "SF"`
 
 *Results in the following poll:*
 
