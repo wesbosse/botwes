@@ -34,7 +34,7 @@ Students vote on the poll like normal. A pop-up message provides the students wi
 
 **Releasing Results:**
 
-Once the instructor is satisfied with the amount of votes received (still working on a way to track this) they can select the "release results" button. This generates a horizontal bar plot to show the answer counts and deletes the poll from the chat log. I added 25 fake votes to the DB to produce the following results:
+Once the instructor is satisfied with the amount of votes received (still working on a way to track this) they can select the "release results" button. This generates a horizontal bar plot to show the answer counts and deletes the poll from the chat log. I added 9 fake votes (on top of my 1 sample vote for LA) to the DB to produce the following results:
 
 <img src="assets/results.png" style="max-width:30%"> 
 <br>
