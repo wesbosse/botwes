@@ -3,7 +3,7 @@ Author: wes - la - july 2019
 ___
 
 ## The Problem
-Simple Poll doesn't work for our use case. Students are able to see what other students are answering before they submit their own. In order to get accurate knowledge checks, we need a poll that doesn't reveal the distribution of answers until _after_ students are finished voting. Example of our current poll system:
+Simple Poll isn't the perfect solution for our polling needs. Students are able to see what their classmates have answered before submitting their own response. We need a poll that doesn't reveal the distribution of answers until _after_ students are finished voting in order to get accurate knowledge checks. Example of our current poll system:
 
 <img src="assets/sp_bad.png" style="max-width:30%">  
 
@@ -12,13 +12,13 @@ I can see how others have voted before casting my own vote.
 
 ## A Potential Solution
 
-_We maintain our own slack bot with a custom slash command to handle this. I have a prototype up and running on a private slack org._
+_We maintain our own slack bot with a custom slash command to handle this. A prototype is up and running on a private slack org._
 
 **The slash command:**  
 
-Intended to work like `/poll` to minimize invasiveness. For my test installation, it is invoked with `/wesley` followed by `"question"` and then `"answer1" "answer2" ...` 
+Intended to work like `/poll` to minimize invasiveness. For my test installation, it is invoked with `/trupoll` followed by `"question"` and then `"answer1" "answer2" ...` 
 
-*Example:* `/wesley "Which WC campus is the best?" "DEN" "LA" "SEA" "SF"`
+*Example:* `/trupoll "Which WC campus is the best?" "DEN" "LA" "SEA" "SF"`
 
 *Results in the following poll:*
 
@@ -45,4 +45,3 @@ While the core process is currently working, there are a few things that would n
 - Give poll creator a count of answers received in an ephemeral message.
 - Implement restrictions on who can release results.
 - Automate the database cleanup
-- Further clean up the disgusting code that powers all of this currently. Seriously, its bad. 
