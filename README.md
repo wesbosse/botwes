@@ -20,7 +20,7 @@ Intended to work like `/poll` to minimize invasiveness. For my test installation
 
 *Example:* `/trupoll "Which WC campus is the best?" "DEN" "LA" "SEA" "SF"`
 
-*Results in the following poll:*
+*Results in the following poll (example shown uses outdated slash command):*
 
 <img src="assets/sample_poll.png" style="max-width:30%"> 
 <br>  
